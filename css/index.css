@@ -1,0 +1,42 @@
+/*
+COLORI:
+Marrone: 4A4036
+Marrone più scuro: 342D26
+Grigio:  D6D1C2
+*/
+
+body {
+    background-color: #4A4036;
+
+}
+
+.container {
+    background-color: #D6D1C2;
+    max-width: 976px;
+}
+
+.container-fluid
+{
+    background-color: #D6D1C2;
+    border-color: #D6D1C2;
+}
+
+#navbarEntry.nav
+{
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    margin-bottom: 0px;
+    margin-left: 200px;
+}
+
+#secondaria {
+    padding: 10px;
+    background-color: #342D26;
+    color: white;
+}
+
+#core {
+    padding-bottom: 15px;
+    
+}
