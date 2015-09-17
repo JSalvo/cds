@@ -14,39 +14,61 @@
    
 </head>
 <body>
-    <div class="container">
-        
+    <div class="container">       
 
     
         <!-- Riga 1 -->
         <div class="row" id="headerlogo">
             <div class="col-lg-3">
-                <img id="logo" src="./img/logo/logoriedizione2.png"></img>
+                <img id="logo" src="./img/logo/logoriedizione6.png">                
+                
+                </img>
+                
             </div>        
         
 
             
     
             
-            <div class="col-lg-2 centra"><span class="smallFont"></span></div>
-            
-            <div class="col-lg-2 centra"><span class="smallFont"></span></div>
+            <div class="col-lg-5 centra" >
+                    <div id="papamarchino" class="collapse in">
+                        <div>
+                        <marquee align="middle" direction="up" scrolldelay="400" height="90" id="marchino">
+
+                            <p>
+                                Buongiorno a tutti. Questo è il nuovo sito di Pedersoli Piumini. Qui,
+                                scorreranno le notizie. State sintonizzati!!!                     
+                            </p>
+
+                            <p>
+                                Come potete vedere, il nuovo look del sito Pedersoli Piumini si è 
+                                modernizzato
+                            </p>
+
+                            <p>
+                                Trovare quello che cercate, sarà più piacevole e veloce. La vostra
+                                esperienza di navigazione - vedrete - migliorerà!!!
+
+                            </p>
+                        </marquee>
+                        </div>
+                    </div>                
         
-            <div class="col-lg-2" ><span class="smallFont">
-                Come Acquistare<br/>
-                Condizioni di Vendita<br/>
-                Dove Siamo<br/>
-                Contatti</span>
             </div>
-        
-            <div class="col-lg-1">
+
+            
+            <div class="col-lg-2 mheader" id="istruzionieinfo"><span class="smallFont">
+                <a>Come Acquistare</a><br/>
+                <a>Condizioni di Vendita</a><br/>
+                <a>Dove Siamo</a><br/>
+                <a>Contatti</a></span>
             </div>
         
             
             <div id="shoppingcart" class="col-lg-1 mheader">
                 <span class="verySmallFont">CARRELLO</span>
                 <img id="imgcart" src="./img/carrello5.png"></img>
-                <p id="modificacarrello" class="collapse smallFont">MODIFICA</p>
+                <p id="modificacarrello" class="smallFont">MODIFICA</p>
             </div>
             <div class="col-lg-1 mheader">
                 <img alt="MASTERCARD" class = "card" src="/img/creditcard/mastercard.png"></img><br/>
@@ -118,12 +140,7 @@
                                     <li><a href="#">Trapunte</a></li>
                                 </ul>
                             </li>
-
-
-
-
                           </ul>
-
                         </div> <!-- /.navbar-collapse -->
                        </div>  <!-- /.container-fluid -->
                     </nav>
@@ -211,9 +228,13 @@
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/endless_scroll/endless_scroll_min.js"></script>
     
 
     <script>
+        
+        $('#scrollami').endlessScroll({steps: -2, speed: 40, mousestop: true });
+        
         $('.navbar-nav li').click(function(e) 
         {
             $('.navbar-nav li.active').removeClass('active');
@@ -228,6 +249,8 @@
             e.preventDefault(); 
             
             $('#carosello').collapse('hide');
+            $('#papamarchino').collapse('hide');
+            
             
             /*
             $('.carousel-control').css({'visibility': 'hidden'});
@@ -248,6 +271,7 @@
             }
             
             $('#carosello').collapse('show');
+            $('#papamarchino').collapse('show');
             
             //e.stopPropagation();
             e.preventDefault(); 
@@ -260,14 +284,16 @@
         $('#imgcart').on('mouseover', function(e) 
         {
             $(this).animate({'width': '60px'});
-            $('#modificacarrello').collapse("show");
+            $('#modificacarrello').animate({"opacity":"100"}, 1000);
+            $(this).css({"cursor":"pointer"});
             
         });
         
          $('#imgcart').on('mouseout', function(e) 
         {
             $(this).animate({'width': '51px'});
-             $('#modificacarrello').collapse("hide");
+             $('#modificacarrello').animate({"opacity":"0"}, 1000);
+             $(this).css({"cursor":"default"});
             
         });
         

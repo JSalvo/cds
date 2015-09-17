@@ -5,6 +5,20 @@ Marrone più scuro: 342D26
 Grigio:  D6D1C2
 */
 
+
+.allinealogo
+{
+    padding-left: 10px;
+
+}
+
+#logo
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
 #youTubeLogo
 {
     width: 90px;
@@ -21,10 +35,20 @@ Grigio:  D6D1C2
 }
 
 
-#logo
+
+#istruzionieinfo
 {
-    padding-top: 5px;
-    padding-bottom: 10px;
+    align-content: right;
+    text-align: right;
+}
+
+
+
+#scrollami
+{
+    padding-top: 50px;
+    font-size: 24px;
+
 }
 
 
@@ -59,6 +83,7 @@ body
 #modificacarrello
 {
     color: green;
+    opacity: 0;
 }
 
 
@@ -89,7 +114,8 @@ body
 
 .centra
 {
-    padding-top: 20px;
+    padding-top: 30px;
+
     
 
 }
@@ -107,7 +133,32 @@ body
 }
 
 
+#papamarchino, #papamarchino > div  
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    border-top-style: solid;
+    border-bottom-style: solid;
+    
+    border-top-color: darkgray;
+    border-bottom-color: darkgray;
+    
+    border-top-width: thin;
+    border-bottom-width: thin;
 
+}
+
+
+
+
+
+#marchino
+{
+    font-family: "Sans-serif", Verdana;
+    font-size: x-small;
+
+}
 
 
 .item > img
