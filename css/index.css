@@ -6,6 +6,44 @@ Grigio:  D6D1C2
 */
 
 
+.buynowrow
+{
+
+}
+
+.buynow
+{
+    font-size: small;
+
+}
+
+
+.buynowsection
+{
+    border-color: darkgray;
+    border-style: solid;
+    border-width: thin;
+    padding: 10px;
+
+}
+
+
+#numberElementInCart
+{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 9px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: small;
+    text-align: center;
+    vertical-align:middle;
+}
+
+
 .allinealogo
 {
     padding-left: 10px;

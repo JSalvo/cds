@@ -17,7 +17,7 @@
     <div class="container">       
 
     
-        <!-- Riga 1 -->
+        <!-- Riga 1 - INTESTAZIONE -->
         <div class="row" id="headerlogo">
             <div class="col-lg-3">
                 <img id="logo" src="./img/logo/logoriedizione6.png">                
@@ -33,7 +33,7 @@
             <div class="col-lg-5 centra" >
                     <div id="papamarchino" class="collapse in">
                         <div>
-                        <marquee align="middle" direction="up" scrolldelay="400" height="90" id="marchino">
+                        <marquee align="middle" direction="up" scrolldelay="400" height="90" id="marchino" onmouseover="this.stop();" onmouseout="this.start();">
 
                             <p>
                                 Buongiorno a tutti. Questo è il nuovo sito di Pedersoli Piumini. Qui,
@@ -67,8 +67,11 @@
             
             <div id="shoppingcart" class="col-lg-1 mheader">
                 <span class="verySmallFont">CARRELLO</span>
-                <img id="imgcart" src="./img/carrello5.png"></img>
-                <p id="modificacarrello" class="smallFont">MODIFICA</p>
+                <div>
+                    <div id=numberElementInCart><strong>10</strong></div>
+                    <img id="imgcart" src="./img/carrello5.png"></img>
+                    <p id="modificacarrello" class="smallFont">MODIFICA</p>
+                </div>
             </div>
             <div class="col-lg-1 mheader">
                 <img alt="MASTERCARD" class = "card" src="/img/creditcard/mastercard.png"></img><br/>
@@ -77,10 +80,10 @@
                 <img alt="PAYPAL" class = "card" src="/img/creditcard/paypal.png"></img>
             </div>
         
-        </div>
+        </div>   <!-- Fine Riga 1 - INTESTAZIONE -->
 
 
-        <!-- Riga 2 -->   
+        <!-- Riga 2  - NAVIGAZIONE -->   
     
             <div class="row">
                 <div class="col-lg-12">
@@ -146,10 +149,10 @@
                     </nav>
 
                </div>       
-            </div>
+            </div> <!-- FINE RIGA 2 - NAVIGAZIONE -->
     
     
-    
+        <!-- RIGA 3 - CAROSELLO -->
         <div id = "carosello", class="row collapse in" >
             <div id="core" class="col-lg-12">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -199,12 +202,90 @@
                 </div>               
             </div>      
   
-        </div>
+        </div> <!-- FINE RIGA 3 - CAROSELLO -->
     
-        <div id="secondaria" class="row">
+        <div class="buynowsection">
+            <div class="row buynowrow">
+                <div class="col-lg-3 buynow">
+                    <div>
+                        <img src="img/compra_ora/coprip.jpg"></img>
+
+                        <h5><strong>Copripiumini Online</strong></h5>
+                        <p>
+                            Novità da oggi puoi acquistare qui il tuo copripiumino scopri l'offerta
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 buynow">
+                    <div>
+                        <img src="img/compra_ora/masextanigif1.gif"></img>
+
+
+                        <h5><strong>Promozione Invernale</strong></h5>
+                        <p>
+                            Si avvicina l'inverno, la Pedersoli Piumini vi propone un piumino 
+                            invernale di alta qualità ad una prezzo scontatissimo... 
+                            Non perdete tempo la disponibilità è limitata... 
+                            IN PIU' SPESE DI SPEDIZIONE GRATUITE Scopri l'offerta                
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 buynow">
+                    <div>
+                        <img src="img/compra_ora/coprip1.jpg"></img>
+                        <h5><strong>Copripiumini</strong></h5>
+                        <p>
+                            Novità da oggi puoi acquistare qui il tuo copripiumino scopri l'offerta
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row buynowrow">
+                <div class="col-lg-3 buynow">
+                    <div>
+                        <img src="img/compra_ora/portenfant2.jpg"></img>
+                        <h5><strong>Portenfent in piumino</strong></h5>
+                        <p>
+                            Un caldo, soffice nido per i vosti piccoli. Utilissimo anche per il trasporto
+                            in carrozzina e sul seggiolino dell'auto. Disponibile in tre colori..
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 buynow">
+                    <div>
+                        <img src="img/compra_ora/trovapium.jpg"></img>
+                        <h5><strong>Il tuo piumino ideale?</strong></h5>
+                        <p>
+                            Lo trovi in pochi secondi. Scegli il peso, la misura e il tessuto.. Prova subito
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 buynow">
+                    <div>
+                        <img src="img/compra_ora/topper2.jpg"></img>
+                        <h5><strong>Topper in piumino</strong></h5>
+                        <p>
+                            Si adagia su qualsiasi materassso e ne incrementa la comodità, 
+                            migliorando la distribuzione del peso corporeo. Traspirante, 
+                            igienico, anallergico. Disponibile in tre misure..
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         
 
-            <div class="col-lg-1">
+
+    
+        <!-- FOOTER -->
+        <div id="secondaria" class="row">
+        <div class="col-lg-1">
                 <img src="img/youtube/youtubelogo.png" id="youTubeLogo"></img>
             </div>
             <div class="col-lg-1">
@@ -215,11 +296,8 @@
                 (gi&agrave;  Casa dello Scampolo) - Via Roccole 35 - Darfo Boario Terme (BS) <br/>
                 Tel. 0364-53.00.25 - Fax 0364-52.78.96 - info@pedersolipiumini.it <br/>
                 C.F. 01427340177 - P.I. 00625550983
-            </div>
-
-    
-        </div>   
-        
+            </div>    
+        </div> <!-- FINE FOOTER -->  
         
     </div>
 
@@ -252,6 +330,9 @@
             $('#papamarchino').collapse('hide');
             
             
+            document.getElementById('marchino').stop();
+            document.getElementById('marchino').start();
+            
             /*
             $('.carousel-control').css({'visibility': 'hidden'});
             $('.carousel-indicators').css({'visibility': 'hidden'});
@@ -275,7 +356,12 @@
             
             //e.stopPropagation();
             e.preventDefault(); 
-
+           
+            
+            
+            
+            //$('#marchino').start();
+            
             
             
         });
