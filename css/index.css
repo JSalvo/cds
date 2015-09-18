@@ -17,6 +17,47 @@ Grigio:  D6D1C2
 
 }
 
+.itemname
+{
+    color: #214284;
+    font-size: 18px;
+}
+
+.removeitem
+{
+   font-size: 12px;
+    color: darkred;
+
+}
+
+.chartheader
+{
+    font-size: small;
+    color: dimgray;
+    border-bottom-style: solid;
+    border-bottom-color: dimgray;
+    border-bottom-width: thin;
+    
+}
+
+.chartitem
+{
+    padding-top: 10px;
+    font-size: small;
+    color: dimgray;
+    border-bottom-style: solid;
+    border-bottom-color: dimgray;
+    border-bottom-width: thin;
+
+}
+
+.price
+{
+    color: firebrick;
+    font-weight: 600;
+    font-size: 18px;
+
+}
 
 .buynowsection
 {
@@ -25,7 +66,17 @@ Grigio:  D6D1C2
     border-width: thin;
     padding: 10px;
 
+
+
 }
+
+.chartsection
+{
+    padding: 20px;
+
+}
+
+
 
 
 #numberElementInCart
@@ -97,14 +148,16 @@ body
 
 .container 
 {
+   
     background-color: #D6D1C2;
+   
     max-width: 976px;
 }
 
 
 #headerlogo
 {
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 5px;
 }
 
@@ -187,6 +240,11 @@ body
 
 }
 
+#papamarchino
+{
+    margin-top: 20px;
+}
+
 
 
 
@@ -195,7 +253,6 @@ body
 {
     font-family: "Sans-serif", Verdana;
     font-size: x-small;
-
 }
 
 
