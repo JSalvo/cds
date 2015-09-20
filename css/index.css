@@ -5,11 +5,47 @@ Marrone più scuro: 342D26
 Grigio:  D6D1C2
 */
 
+#perche
+{ 
+    position: absolute;
+      
+    margin-top: -20px;    
+    right: 50px;
+    
+    background-color: #D6D1C2;
+    padding: 5px;
+    font-size: medium;
+    color: darkred;
+    font-style: oblique;
+}
+
+.polaroid
+{
+    width: 254px;
+    height: 128px;
+    background-color: #4A4036;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+.buynow > div
+{
+    width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .buynowrow
 {
+    /*padding: 5px;*/
 
 }
+
+
 
 .buynow
 {
@@ -48,6 +84,7 @@ Grigio:  D6D1C2
     border-bottom-style: solid;
     border-bottom-color: dimgray;
     border-bottom-width: thin;
+    background-color: #D6D1C2;
 
 }
 
@@ -73,6 +110,7 @@ Grigio:  D6D1C2
 .chartsection
 {
     padding: 20px;
+    background-color: #D6D1C2;
 
 }
 
@@ -226,6 +264,8 @@ body
 
 #papamarchino, #papamarchino > div  
 {
+ 
+    
     padding-top: 2px;
     padding-bottom: 2px;
     
