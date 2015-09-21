@@ -1,0 +1,81 @@
+<!-- Logo dell'header -->
+<div class="col-lg-3">
+    <img id="logo" src="./img/logo/logoriedizione6.png"></img>                
+</div>        
+
+<!-- Sezione per la visualizzazione delle NEWS -->
+<div class="col-lg-5 centra" >
+    <div id="papamarchino" class="collapse in">            
+
+        <div>
+            <div id="perche">
+                News
+            </div>
+
+
+            <marquee align="middle" direction="up" scrolldelay="400" height="70" id="marchino" onmouseover="this.stop();" onmouseout="this.start();">
+                <p>
+                    Buongiorno a tutti. Questo è il nuovo sito di Pedersoli Piumini. Qui,
+                    scorreranno le notizie. State sintonizzati!!!                     
+                </p>
+
+                <p>
+                    Come potete vedere, il nuovo look del sito Pedersoli Piumini si è 
+                    modernizzato
+                </p>
+
+                <p>
+                    Trovare quello che cercate, sarà più piacevole e veloce. La vostra
+                    esperienza di navigazione - vedrete - migliorerà!!!
+
+                </p>
+            </marquee> 
+            
+        </div>
+    </div>                
+</div> <!-- FINE NEWS -->
+
+<!-- Link informativi -->
+<div class="col-lg-2 mheader" id="istruzionieinfo"><span class="smallFont">
+    <a>Come Acquistare</a><br/>
+    <a>Condizioni di Vendita</a><br/>
+    <a>Dove Siamo</a><br/>
+    <a>Contatti</a></span>
+</div>
+
+<!-- Icona del carrello per accedere alla modifica dello stesso -->
+<div id="shoppingcart" class="col-lg-1 mheader">
+    <span class="verySmallFont">CARRELLO</span>
+    <div>
+        <div id=numberElementInCart><strong>10</strong></div>
+        <img id="imgcart" src="./img/carrello5.png"></img>
+        <p id="modificacarrello" class="smallFont">MODIFICA</p>
+    </div>
+</div>
+
+<!-- Icone dei metodi di pagamento -->
+<div class="col-lg-1 mheader">
+    <img alt="MASTERCARD" class = "card" src="/img/creditcard/mastercard.png"></img><br/>
+    <img alt="VISA" class = "card" src="/img/creditcard/visa.png"></img><br/>
+    <img alt="MAESTRO" class = "card" src="/img/creditcard/maestro.png"></img>  
+    <img alt="PAYPAL" class = "card" src="/img/creditcard/paypal.png"></img>
+</div>
+
+
+<script>
+    $('#imgcart').on('mouseover', function(e) 
+    {
+        $(this).animate({'width': '60px'});
+        $('#modificacarrello').animate({"opacity":"100"}, 1000);
+        $(this).css({"cursor":"pointer"});
+
+    });
+
+    $('#imgcart').on('mouseout', function(e) 
+    {
+        $(this).animate({'width': '51px'});
+        $('#modificacarrello').animate({"opacity":"0"}, 1000);
+        $(this).css({"cursor":"default"});            
+    });
+</script>
+
