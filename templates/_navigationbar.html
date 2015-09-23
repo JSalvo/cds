@@ -74,11 +74,11 @@
         e.preventDefault(); 
 
         $('#carosello').collapse('hide');
-        $('#papamarchino').collapse('hide');
+        $('#newssection > div').collapse('hide');
 
 
-        document.getElementById('marchino').stop();
-        document.getElementById('marchino').start();
+        document.getElementById('mar').stop();
+        document.getElementById('mar').start();
 
         /*
         $('.carousel-control').css({'visibility': 'hidden'});
@@ -89,6 +89,8 @@
 
     $('#homenav').click(function(e) 
     {
+        console.log("Ci sto passando");
+        
         $('.navbar-nav li.active').removeClass('active');
         var $this = $(this);
 
@@ -98,7 +100,7 @@
         }
 
         $('#carosello').collapse('show');
-        $('#papamarchino').collapse('show');
+        $('#newssection > div').collapse('show');
 
         //e.stopPropagation();
         e.preventDefault(); 

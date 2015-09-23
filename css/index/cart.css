@@ -1,0 +1,60 @@
+/* CARRELLO */
+
+.item > img
+{
+    width: 100%;
+}
+
+.itemname
+{
+    color: #214284;
+    font-size: 18px;
+}
+
+.removeitem
+{
+   font-size: 12px;
+    color: darkred;
+
+}
+
+.chartheader
+{
+    font-size: small;
+    color: dimgray;
+    border-bottom-style: solid;
+    border-bottom-color: dimgray;
+    border-bottom-width: thin;
+    
+}
+
+.chartitem
+{
+    padding-top: 10px;
+    font-size: small;
+    color: dimgray;
+    border-bottom-style: solid;
+    border-bottom-color: dimgray;
+    border-bottom-width: thin;
+    background-color: #D6D1C2;
+
+}
+
+.price
+{
+    color: firebrick;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+
+
+
+.chartsection
+{
+    padding: 20px;
+    background-color: #D6D1C2;
+
+}
+

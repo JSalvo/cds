@@ -1,0 +1,53 @@
+/* BARRA DI NAVIGAZIONE */
+
+.navbar-default 
+{
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 5px rgba(0, 0, 0, 0.075);
+
+    background-color: #342d26;
+    border-color: #4a4036;
+}
+
+
+.nav
+{
+    background-color: #342d26;
+}
+
+.nav > ul > li
+{
+    background-color: #342d26;  
+    border-color: #4a4036;
+}
+
+.nav > ul > li > a
+{
+    color: pink;
+}
+
+
+.navbar-default .navbar-nav > .active > a,  .navbar-default .navbar-nav > .active > a:focus 
+{
+    background-color: #4A4036;
+    background-image: none;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    color: white;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus
+{
+    color: white;
+    background-color: #4A4036;
+}

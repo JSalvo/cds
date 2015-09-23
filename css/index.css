@@ -5,178 +5,6 @@ Marrone più scuro: 342D26
 Grigio:  D6D1C2
 */
 
-#perche
-{ 
-    position: absolute;
-      
-    margin-top: -20px;    
-    right: 50px;
-    
-    background-color: #D6D1C2;
-    padding: 5px;
-    font-size: medium;
-    color: darkred;
-    font-style: oblique;
-}
-
-.polaroid
-{
-    width: 254px;
-    height: 128px;
-    background-color: #4A4036;
-    padding: 15px;
-    border-radius: 5px;
-    border-color: black;
-    border-style: solid;
-    border-width: thin;
-    
-}
-
-.buynow > div
-{
-    width: 254px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.buynowrow
-{
-    /*padding: 5px;*/
-
-}
-
-
-
-.buynow
-{
-    font-size: small;
-
-}
-
-.itemname
-{
-    color: #214284;
-    font-size: 18px;
-}
-
-.removeitem
-{
-   font-size: 12px;
-    color: darkred;
-
-}
-
-.chartheader
-{
-    font-size: small;
-    color: dimgray;
-    border-bottom-style: solid;
-    border-bottom-color: dimgray;
-    border-bottom-width: thin;
-    
-}
-
-.chartitem
-{
-    padding-top: 10px;
-    font-size: small;
-    color: dimgray;
-    border-bottom-style: solid;
-    border-bottom-color: dimgray;
-    border-bottom-width: thin;
-    background-color: #D6D1C2;
-
-}
-
-.price
-{
-    color: firebrick;
-    font-weight: 600;
-    font-size: 18px;
-
-}
-
-.buynowsection
-{
-    border-color: darkgray;
-    border-style: solid;
-    border-width: thin;
-    padding: 10px;
-
-
-
-}
-
-.chartsection
-{
-    padding: 20px;
-    background-color: #D6D1C2;
-
-}
-
-
-
-
-#numberElementInCart
-{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    background-color: red;
-    border-radius: 9px;
-    margin-left: 15px;
-    margin-top: 15px;
-    color: white;
-    font-size: small;
-    text-align: center;
-    vertical-align:middle;
-}
-
-
-.allinealogo
-{
-    padding-left: 10px;
-
-}
-
-#logo
-{
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-
-#youTubeLogo
-{
-    width: 90px;
-
-}
-
-#facebookLogo
-{
-    padding-top: 12px;
-    padding-left: 20px;
-    
-    width: 50px;
-
-}
-
-
-
-#istruzionieinfo
-{
-    align-content: right;
-    text-align: right;
-}
-
-
-
-#scrollami
-{
-    padding-top: 50px;
-    font-size: 24px;
-
-}
 
 
 body 
@@ -193,46 +21,6 @@ body
 }
 
 
-#headerlogo
-{
-    padding-top: 0px;
-    padding-bottom: 5px;
-}
-
-
-#secondaria 
-{
-    padding: 10px;
-    background-color: #342D26;
-    color: white;
-    font-size: x-small;
-}
-
-
-#modificacarrello
-{
-    color: green;
-    opacity: 0;
-}
-
-
-#core 
-{
-    padding-bottom: 15px;
-    
-}
-
-
-.mheader
-{
-   padding-top: 25px;
-
-}
-
-.verySmallFont
-{
-    font-size: xx-small;
-}
 
 .smallFont
 {
@@ -241,198 +29,28 @@ body
     font-size: x-small;
 }
 
-.centra
+.verySmallFont
 {
-    padding-top: 30px;
-
-    
-
-}
-
-.card
-{
-    width:40px;
-
-}
-
-
-.carousel-inner
-{
-    width: 100%;
-}
-
-
-#papamarchino, #papamarchino > div  
-{
- 
-    
-    padding-top: 2px;
-    padding-bottom: 2px;
-    
-    border-top-style: solid;
-    border-bottom-style: solid;
-    
-    border-top-color: darkgray;
-    border-bottom-color: darkgray;
-    
-    border-top-width: thin;
-    border-bottom-width: thin;
-
-}
-
-#papamarchino
-{
-    margin-top: 20px;
+    font-size: xx-small;
 }
 
 
 
 
 
-#marchino
-{
-    font-family: "Sans-serif", Verdana;
-    font-size: x-small;
-}
-
-
-.item > img
-{
-    width: 100%;
-}
-
-
-.navbar-default 
-{
-    background-image: none;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 5px rgba(0, 0, 0, 0.075);
-
-    background-color: #342d26;
-    border-color: #4a4036;
-}
 
 
 
 
 
-.nav
-{
-    background-color: #342d26;
-}
-
-.nav > ul > li
-{
-    background-color: #342d26;  
-    border-color: #4a4036;
-}
-
-.nav > ul > li > a
-{
-    color: pink;
-}
-
-
-.navbar-default .navbar-nav > .active > a,  .navbar-default .navbar-nav > .active > a:focus 
-{
-    background-color: #4A4036;
-    background-image: none;
-    background-repeat: no-repeat;
-    box-shadow: none;
-    color: white;
-}
-
-
-
-
-.navbar-default .navbar-nav > li > a:hover
-{
-    color: white;
-}
-
-.navbar-default .navbar-nav > li > a:focus
-{
-    color: white;
-    background-color: #4A4036;
-}
 
 
 
 
 
-/*
 
-.navbar-default .navbar-brand {
-  color: red;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #ffffff;
-}
-.navbar-default .navbar-text {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #342d26;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #ffffff;
-  background-color: #4a4036;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #342d26;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #4a4036;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #ffffff;
-  background-color: #4a4036;
-}
-.navbar-default .navbar-toggle {
-  border-color: #4a4036;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #4a4036;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ecf0f1;
-}
-.navbar-default .navbar-link {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-link:hover {
-  color: #ffffff;
-}
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #4a4036;
-  }
-}
-*/
+
 
 
 

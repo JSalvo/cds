@@ -5,10 +5,14 @@
         <title></title>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <!--<link rel="stylesheet" href="css/bootstrap-theme.css">-->
         <link rel="stylesheet" href="css/index.css">
-
-        <!---<link rel="stylesheet" href="css/customNavbar.css">--->   
+            <link rel="stylesheet" href="css/index/header.css">
+            <link rel="stylesheet" href="css/index/navigationbar.css">
+            <link rel="stylesheet" href="css/index/carousel.css">
+            <link rel="stylesheet" href="css/index/buynow.css">
+            <link rel="stylesheet" href="css/index/cart.css">
+            <link rel="stylesheet" href="css/index/footer.css">
     </head>
 <body>
     <div class="container">    
@@ -33,12 +37,7 @@
         <div id="buynowsection">
             <!-- Verrà popolato con js -->
         </div>
-
-            
         
-
-
-    
         <!-- FOOTER -->
         <div id="secondaria" class="row">
             <!-- Verrà popolato con js -->
@@ -50,10 +49,7 @@
         
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
-    <script src="js/bootstrap.min.js"></script>
-    
-
-    
+    <script src="js/bootstrap.min.js"></script>    
 </body>
 
     
@@ -68,14 +64,14 @@
                 // Barra di navigazione
                 $('#navigationbar').load('templates/_navigationbar.html');
                 
-                // Carico il footer della pagina
-                $('#core').load('templates/_core.html');
+                // Carico il carosello
+                $('#core').load('templates/_carosello.html');
                 
                 // Carico la sezione buynowsection
                 $('#buynowsection').load('templates/_buynowsection.html');
                 
                 // Carico il footer della pagina
-                $('#secondaria').load('templates/_footer.html');     
+                $('#secondaria').load('templates/_footer.html');   
                 
                 
 

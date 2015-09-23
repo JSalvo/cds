@@ -1,0 +1,126 @@
+/* HEADER */
+
+#logo
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+#newssection
+{
+    padding-top: 30px;
+}
+
+
+#newssection > div
+{
+    margin-top: 20px;
+}
+
+#newssection > div, #newssection > div > div  
+{
+ 
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    border-top-style: solid;
+    border-bottom-style: solid;
+    
+    border-top-color: darkgray;
+    border-bottom-color: darkgray;
+    
+    border-top-width: thin;
+    border-bottom-width: thin;
+
+}
+
+#newslabel
+{ 
+    position: absolute;
+      
+    margin-top: -20px;    
+    right: 50px;
+    
+    background-color: #D6D1C2;
+    padding: 5px;
+    font-size: medium;
+    color: darkred;
+    font-style: oblique;
+}
+
+#newssection > div > div > marquee
+{
+    font-family: "Sans-serif", Verdana;
+    font-size: x-small;
+}
+
+
+.buyheadersection
+{
+    padding-top: 25px;
+}
+
+/* HEADER SECTION */
+
+#infoandinstruction
+{
+    
+    align-content: right;
+    text-align: right;
+}
+
+#shoppingcart
+{
+    
+}
+
+.card
+{
+    width:40px;
+}
+
+#editcartlabel
+{
+    color: green;
+    opacity: 0;
+}
+
+
+
+#numberElementInCart
+{
+    pointer-events: none;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 9px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: small;
+    text-align: center;
+    vertical-align:middle;
+}
+
+
+
+
+/* ?????? */
+#headerlogo
+{
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+/* Cancellare???????*/
+.allinealogo
+{
+    padding-left: 10px;
+
+}
+
+
+/* classe centra che è in index.css*/

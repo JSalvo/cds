@@ -1,0 +1,60 @@
+/* COMPRA SUBITO */
+
+.polaroid
+{
+    /*
+    width: 254px;
+    height: 128px;
+    background-color: #4A4036;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;*/
+    
+}
+
+.polaroid > img
+{
+    
+        -moz-box-shadow:  10px  10px 7px #4A4036;
+        -webkit-box-shadow:  10px  10px 7px #4A4036;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color='#4A4036', Direction=135, Strength=10);
+        box-shadow: 7px 7px 7px #4A4036;  
+}
+
+.buynow > div
+{
+    width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buynowrow
+{
+    /*padding: 5px;*/
+
+}
+
+
+
+.buynow
+{
+    font-size: small;
+}
+
+.buynow > div > h5
+{
+    padding-top: 15px;
+    color: midnightblue;
+}
+
+
+.buynowsection
+{
+    border-color: darkgray;
+    border-style: solid;
+    border-width: thin;
+    padding: 10px;
+}
+
